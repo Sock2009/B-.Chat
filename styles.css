@@ -1,0 +1,56 @@
+/* Додайте стилі за бажанням */
+
+.user-input-container {
+    display: flex;
+  }
+  
+  .user-input-container input {
+    flex: 1;
+  }
+  
+  .user-input-container button {
+    margin-left: 10px;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .chat-container {
+    width: 25cm;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .chat-box {
+    height: 15cm;
+    padding: 10px;
+    overflow-y: scroll;
+  }
+  
+  input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  
+  button {
+    width: 30%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  
